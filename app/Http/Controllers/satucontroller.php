@@ -9,6 +9,11 @@ class satuController extends Controller
         return view("view-1");
     }
 
+    public function index()
+    {
+        return view("testing-tema"); //view dengan template
+    }
+
     public function dua()
     {
         return view("view-2");

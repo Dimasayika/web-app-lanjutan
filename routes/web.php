@@ -45,7 +45,9 @@ Route::get('/komentar', function () {
 use App\Http\Controllers\UtamaController;
 Route::get("/utama/test", [UtamaController::class,"test"]);
 
+
 use App\Http\Controllers\Satucontroller;
+Route::get("/tema/bootstrap",[utamaController::class,"index"]);
 Route::get("/utama/dimas 1", [SatuController::class,"satu"]);
 Route::get("/utama/dimas 2", [SatuController::class,"dua"]);
 Route::get("/utama/dimas 3", [SatuController::class,"tiga"]);
